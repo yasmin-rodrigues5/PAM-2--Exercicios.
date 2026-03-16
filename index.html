@@ -1,117 +1,212 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Tabela JavaScript</title>
+<meta charset="UTF-8">
+<title>Tabela de IMC e Classificação</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- INTRO COM LINK -->
-    <div class="intro">
-        <a href="#tabela">
-            <img src="img/intro.png" alt="Imagem de Introdução">
-        </a>
-    </div>
+<h2>Dados Antropométricos - Avaliação de IMC</h2>
 
-    <!-- TABELA -->
-    <section class="tab" id="tabela">
-        <table width="100%" border="1" style="text-align: center;">
-            <thead>
-                <tr>
-                    <th>Aluno</th>
-                    <th>Nota 01:</th>
-                    <th>Nota 02:</th>
-                    <th>Nota 03:</th>
-                    <th>Média:</th>
-                    <th>Status:</th>
-                </tr>
-            </thead>
+<table>
+<thead>
+<tr>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Altura (m)</th>
+    <th>Peso (kg)</th>
+    <th>IMC</th>
+    <th>Classificação</th>
+</tr>
+</thead>
 
-            <tbody>
-                <tr>
-                    <td id="aluno1">Carlos</td>
-                    <td id="n1">2</td>
-                    <td id="n2">5</td>
-                    <td id="n3">10</td>
-                    <td id="media"></td>
-                    <td id="status"></td>
-                </tr>
+<tbody>
 
-                <tr>
-                    <td id="aluno2">Gabriel</td>
-                    <td id="n1_1">5</td>
-                    <td id="n2_1">3</td>
-                    <td id="n3_1">9</td>
-                    <td id="media_1"></td>
-                    <td id="status_1"></td>
-                </tr>
+<tr>
+    <td>Ana Silva</td>
+    <td>28</td>
+    <td>1.65</td>
+    <td>62</td>
+    <td></td>
+    <td></td>
+</tr>
 
-                <tr>
-                    <td>Pedro</td>
-                    <td id="n1_2">8</td>
-                    <td id="n2_2">9</td>
-                    <td id="n3_2">7</td>
-                    <td id="media_2"></td>
-                    <td id="status_2"></td>
-                </tr>
+<tr>
+    <td>Bruno Oliveira</td>
+    <td>34</td>
+    <td>1.80</td>
+    <td>88</td>
+    <td></td>
+    <td></td>
+</tr>
 
-                <tr>
-                    <td id="aluno3">Maria</td>
-                    <td id="n1_3">7</td>
-                    <td id="n2_3">2</td>
-                    <td id="n3_3">10</td>
-                    <td id="media_3"></td>
-                    <td id="status_3"></td>
-                </tr>
+<tr>
+    <td>Carla Souza</td>
+    <td>42</td>
+    <td>1.58</td>
+    <td>54</td>
+    <td></td>
+    <td></td>
+</tr>
 
-                <tr>
-                    <td id="aluno4">Joana</td>
-                    <td id="n1_4">6</td>
-                    <td id="n2_4">4</td>
-                    <td id="n3_4">8</td>
-                    <td id="media_4"></td>
-                    <td id="status_4"></td>
-                </tr>
+<tr>
+    <td>Diego Santos</td>
+    <td>23</td>
+    <td>1.75</td>
+    <td>70</td>
+    <td></td>
+    <td></td>
+</tr>
 
-                <tr>
-                    <td id="aluno5">Ulisses</td>
-                    <td id="n1_5">4</td>
-                    <td id="n2_5">6</td>
-                    <td id="n3_5">9</td>
-                    <td id="media_5"></td>
-                    <td id="status_5"></td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+<tr>
+    <td>Elena Costa</td>
+    <td>55</td>
+    <td>1.62</td>
+    <td>78</td>
+    <td></td>
+    <td></td>
+</tr>
 
-    <!-- CARDS -->
-    <section class="card-container">
+<tr>
+    <td>Felipe Rocha</td>
+    <td>31</td>
+    <td>1.88</td>
+    <td>95</td>
+    <td></td>
+    <td></td>
+</tr>
 
-        <div class="card1">
-            <img src="img/css.png" alt="Imagem CSS">
-            <h3>CSS</h3>
-            <p>O CSS é utilizado para estilizar a tabela, definindo cores, fontes, espaçamento e layout.</p>
-        </div>
+<tr>
+    <td>Giovanna Lima</td>
+    <td>27</td>
+    <td>1.70</td>
+    <td>60</td>
+    <td></td>
+    <td></td>
+</tr>
 
-        <div class="card2">
-            <img src="img/js.png" alt="Imagem JavaScript">
-            <h3>JavaScript</h3>
-            <p>Neste projeto, utilizamos JavaScript para calcular a média das notas dos alunos e determinar seu status com base na média.</p>
-        </div>
+<tr>
+    <td>Hugo Mendes</td>
+    <td>45</td>
+    <td>1.72</td>
+    <td>82</td>
+    <td></td>
+    <td></td>
+</tr>
 
-        <div class="card3">
-            <img src="img/html.png" alt="Imagem HTML">
-            <h3>HTML</h3>
-            <p>O HTML é a estrutura básica da tabela, onde definimos as linhas, colunas e células para organizar os dados dos alunos.</p>
-        </div>
+<tr>
+    <td>Irene Alves</td>
+    <td>38</td>
+    <td>1.60</td>
+    <td>68</td>
+    <td></td>
+    <td></td>
+</tr>
 
-    </section>
+<tr>
+    <td>João Pereira</td>
+    <td>50</td>
+    <td>1.82</td>
+    <td>90</td>
+    <td></td>
+    <td></td>
+</tr>
 
-    <script src="JavaScript/script.js"></script>
+<tr>
+    <td>Karen Martins</td>
+    <td>21</td>
+    <td>1.67</td>
+    <td>52</td>
+    <td></td>
+    <td></td>
+</tr>
 
+<tr>
+    <td>Leonardo Ferraz</td>
+    <td>29</td>
+    <td>1.78</td>
+    <td>105</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Mariana Gomes</td>
+    <td>33</td>
+    <td>1.55</td>
+    <td>48</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Nilson Vaz</td>
+    <td>60</td>
+    <td>1.68</td>
+    <td>74</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Olívia Duarte</td>
+    <td>25</td>
+    <td>1.73</td>
+    <td>65</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Paulo Ramos</td>
+    <td>40</td>
+    <td>1.85</td>
+    <td>110</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Quiteria Lins</td>
+    <td>48</td>
+    <td>1.59</td>
+    <td>63</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Renato Jorge</td>
+    <td>36</td>
+    <td>1.77</td>
+    <td>79</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Sabrina Antunes</td>
+    <td>22</td>
+    <td>1.64</td>
+    <td>57</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Thiago Nunes</td>
+    <td>29</td>
+    <td>1.81</td>
+    <td >84</td>
+    <td></td>
+    <td></td>
+</tr>
+
+</tbody>
+</table>
+
+<script type="module" src="script.js"></script>
 </body>
 </html>
